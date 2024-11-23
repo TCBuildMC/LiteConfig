@@ -1,0 +1,4 @@
+dependencies {
+    api project(":liteconfig-core")
+    compileOnly "com.alibaba.fastjson2:fastjson2:2.0.53"
+}

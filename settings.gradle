@@ -1,0 +1,15 @@
+def liteconfig_projects = [
+        ":liteconfig-annotation",
+        ":liteconfig-core",
+        ":liteconfig-serializer-gson",
+        ":liteconfig-serializer-jankson",
+        ":liteconfig-serializer-fastjson",
+        ":liteconfig-serializer-snakeyaml",
+        ":liteconfig-serializer-toml4j",
+]
+
+rootProject.name = "LiteConfig"
+
+liteconfig_projects.forEach { p -> 
+    include p
+}
