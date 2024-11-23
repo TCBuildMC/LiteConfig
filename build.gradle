@@ -42,7 +42,7 @@ subprojects {
     apply plugin: "maven-publish"
 
     base {
-        archivesName = rootProject.archives_base_name + "-" + project.name
+//        archivesName = rootProject.archives_base_name + "-" + project.name
     }
 
     dependencies {
@@ -69,7 +69,7 @@ subprojects {
         publications {
             create("${project.name}Maven", MavenPublication) {
                 from components.java
-                artifactId = rootProject.archives_base_name + "-" + project.name
+                artifactId = project.name
             }
         }
 
