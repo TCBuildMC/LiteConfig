@@ -1,5 +1,5 @@
 dependencies {
     api project(":liteconfig-core")
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.3'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
     compileOnly "blue.endless:jankson:1.2.3"
 }
